@@ -1,0 +1,12 @@
+name = "Amber"
+grammar = "amber"
+path_suffixes = ["ab"]
+line_comments = ["// "]
+autoclose_before = ";:.,=}])>\"$"
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = false },
+    { start = "(", end = ")", close = true, newline = false },
+    { start = "$", end = "$", close = true, newline = false, not_in = ["comment", "string", "command"] },
+    { start = "\"", end = "\"", close = true, newline = false, not_in = ["comment", "string", "command"] },
+]

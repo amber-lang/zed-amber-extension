@@ -1,0 +1,9 @@
+// Test
+
+"This is a string"
+
+$command$ failed {
+
+}
+
+status

@@ -1,0 +1,7 @@
+grammars/
+grammars/*/
+
+target/
+target/*/
+
+extension.wasm
