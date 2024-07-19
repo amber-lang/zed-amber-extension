@@ -1,11 +1,13 @@
+// unsafe $command$ failed {}}
+let a = 12
 // Test
 
-"This is a string"
+let a = [1, 2, 3, 4]
 
-$command$ failed {
+status
+
+pub fun test(ref arg1: Num, arg2: Text = [1, 2, 3, 4]): Null {
     let a = 12
 }
 
-// Test
-
-status
+test()

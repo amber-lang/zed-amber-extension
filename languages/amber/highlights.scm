@@ -16,8 +16,10 @@
     "pub"
     "main"
     "echo"
+    "exit"
     "fun"
     "import"
+    "from"
     "as"
     "in"
     "fail"
@@ -33,7 +35,7 @@
 (number) @constant.numeric
 (null) @constant.numeric
 (string) @string
-; (status) @keyword
+(status) @keyword
 (command) @string
 (handler) @keyword
 (block) @delimeter
@@ -41,5 +43,16 @@
 (variable_assignment) @delimiter
 (variable) @variable
 (escape_sequence) @constant.character.escape
-; (function_definition
-;     name: (variable) @function.method)
+(type_name_symbol) @type
+(interpolation) @delimiter
+(reference) @keyword
+(preprocessor_directive) @comment
+(shebang) @comment
+(function_definition
+    name: (variable) @function.method)
+(function_call
+    name: (variable) @function.method)
+(import_statement
+    "pub" @keyword
+    "import" @keyword
+    "from" @keyword)

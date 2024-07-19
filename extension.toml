@@ -8,4 +8,4 @@ repository = "https://github.com/Ph0enixKM/zed-amber-extension"
 
 [grammars.amber]
 repository = "https://github.com/amber-lang/tree-sitter-amber"
-commit = "0d553f126317f8d937647d062189fb1e439097ea"
+commit = "01bf07600a9ddc3a7c8a00d9e207dd35b156d93a"
