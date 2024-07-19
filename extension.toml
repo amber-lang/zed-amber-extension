@@ -1,4 +1,4 @@
-id = "amber"
+id = "amber-bash"
 name = "Amber"
 description = "Amber Language support."
 version = "0.1.0"
