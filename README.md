@@ -1,3 +1,5 @@
 # Amber for Zed
 
-Amber grammar for [Zed](https://zed.dev/).
+[Amber](https://amber-lang.com) grammar for [Zed](https://zed.dev/).
+
+![Screenshot of the grammar](assets/screenshot.png)
