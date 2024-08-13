@@ -28,6 +28,7 @@
     "nameof"
     "is"
     "unsafe"
+    "trust"
 ] @keyword
 
 ; Literals
